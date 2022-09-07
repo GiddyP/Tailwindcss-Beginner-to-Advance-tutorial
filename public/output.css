@@ -551,11 +551,15 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.btn-blue {
+.bg-indigo-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  background-color: rgb(165 180 252 / var(--tw-bg-opacity));
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
+.hover\:p-12:hover {
+  padding: 3rem;
 }

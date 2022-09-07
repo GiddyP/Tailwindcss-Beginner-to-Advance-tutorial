@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    .btn-blue {
-        @apply py-2 bg-blue-500 text-white;
+@layer utilities {
+    .p-21 {
+        padding: 5.5rem;
+    }
+
+    @variants hover,
+    focus {
+        .p-21 {
+            padding: 5.5rem;
+        }
     }
 }
