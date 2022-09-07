@@ -1,16 +1,9 @@
-.btn {
-  border-radius: 0.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-weight: 700
+/* tailwindcss utility classes */
+
+base {
+  .btn {
+    padding: 1rem
+  }
 }
 
-/* overide */
-
-.btn-blue {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding: 1rem
-}
+/* this goes into the bases default utility classes */
